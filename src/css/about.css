@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    width: 60px;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.navbar a:hover {
+    color: #FFAE00;
+    transition: .3s;
+}
+
+.btn-about {
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border: 3px solid #FFAE00;
+    border-radius: 6px;
+    background: none;
+    padding: 9px 25px;
+}
+
+.btn-about:hover {
+    background-color: #FFAE00;
+    color: white;
+    transition: .3s;
+}
+
+.title {
+    font-size: 50px;
+    color: #3A3A3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.container {
+    width: 100%;
+    margin-top: 70px;
+    background-color: #1F1E27;
+}
+
+.about-title {
+    color: white;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.container-status {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-status h1 {
+    color: white;
+}
+
+.Status {
+    color: white;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.Location {
+    color: #A7A7A7;
+    padding-bottom: 5px;
+}
+
+.true-location {
+    color: white;
+    padding-bottom: 6px;
+}
+
+.Location-space {
+    color: #A7A7A7;
+    padding-top: 6px;
+    padding-bottom: 3px;
+}
+
+.true-location-one {
+    color: white;
+    margin-bottom: 6px;
+}
+
+.character-container {
+    background-color: #464646;
+    width: 55vh;
+    border-radius: 5px 5px;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+}
+
+.char-img {
+    width: 200px;
+}
+
+.character-container {
+    margin: 30px;
+}
+
+.all-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
