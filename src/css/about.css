@@ -85,7 +85,10 @@
 }
 
 .container-status h1 {
+    font-size: 23px;
+    font-weight: 700;
     color: white;
+    margin-bottom: 9px;
 }
 
 .Status {
@@ -126,6 +129,8 @@
 
 .char-img {
     width: 200px;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .character-container {
